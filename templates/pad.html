@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Create Note</title>
+    <script type="text/javascript" defer src="/static/pad.js"></script>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <ul id="head-list">
+                <li>
+                    <a href="/" class="back-btn">⬅</a>
+                    <h2>NOTEPAD</h2>
+                </li>
+            </ul>
+        </div>
+
+        <div id="form-container">
+            <form id="note-form">
+                <input type="text" id="title" placeholder="Title" required><br><br>
+                <textarea id="note-content" placeholder="Write your note here..."></textarea><br><br><br>
+                <button type="submit">Save Note</button>
+            </form>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
